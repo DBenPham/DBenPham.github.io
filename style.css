@@ -1,0 +1,47 @@
+body{
+    background-image: url("tetris.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: 50%;
+    background-attachment: fixed;
+    background-color: rgb(55, 172, 198);
+    font-family: 'Francois One', sans-serif;
+}
+#nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: rgb(55, 172, 198);
+}
+#nav li{
+    float: left;
+    
+}
+#nav li a{
+    display:block;
+    padding:10px 16px;
+    text-align: center;
+    color:Black;
+    
+}
+#nav li a:hover{
+    background-color:purple;
+}
+#content{
+    border:solid yellow 2px;
+    margin-top: 20px;
+    width: 67%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(90,90,90,1);
+}
+table{
+    margin:auto;
+}
+#content ul, #content ol{
+    margin:auto;
+    width: 20%;
+    text-align: left;
+}
